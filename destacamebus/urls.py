@@ -15,5 +15,4 @@ router.register(r'horario', views.HorarioViewSet)
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include(router.urls)),
-    path('', views.index),
 ]
